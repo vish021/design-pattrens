@@ -35,7 +35,7 @@ class TwitterAdapter implements StatusUpdate {
     }
 
     public function postUpdate($message) {
-        $this->twitter->setStatusUpdate($message)
+        $this->twitter->setStatusUpdate($message);
     }
 }
 
